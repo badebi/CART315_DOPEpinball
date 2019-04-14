@@ -19,6 +19,7 @@ As I have planed since the beginning, I wanted the player to be able to jump to 
 With all these changes, here are some points from playtesters' feedbacks:
 * There is nothing to show how to play the game in UI.
 * Walls need some work, as well as bumpers.
+* The game space is too small and compact.
 * The duration of the POV mode is static, and the player can not extend it somehow.
 * Jumping is awesome, however, jumping over the bumpers is not a good idea.
 * There is no jumping sign to say jump over this wall to go to the next level or so.
@@ -27,4 +28,19 @@ With all these changes, here are some points from playtesters' feedbacks:
 ## Playtest #3 - beta test
 For the last playtest, which I have arranged myself, I remodel the whole board in blender and made it larger and more amusing. In addition, I repositioned the bumpers to make the game more fun. Then, I got rid of mouse as a controller and replaced it with arrows, so player will have a comfortable hand position to play the game. Added various elemets to UI such as Controls, the Goal of the game, "next level unlocks at: X points", and the duration of POV mode. I have made a connection between Multiplier's value, duration of POV mode, and the thereshold in which POV mode becomes available; so as the multiplier's value goes higher than the threshold, and player have not yet used its super power, an specific amount will be added to the POV mode duration based on the difference between the multiplier and the threshold. At this point, if player goes to POV mode, s/he has more time to spend in POV mode, nonetheless s/he also has set the threshold to a higher level which makes the game a bit harder. To solve the "jumping over the bumpers" issue, I added a glass top, which is open on both ends for level transitions, on top of the boards. Afterwards, I added a jump sign at the end of the board which apears in POV mode whenever the next level is unlocked.
 
+After these adjustments and changes, I arranged a playtest session with couple of friends and family, and here is its outcome:
+* With this board layout, it is a bit easy to lose. The ball goes on the sides often and falls into the hole.
+* Jumping acts a bit weird and player can only jump once.
+* It is really hard to jump and control the ball at the same time, and it is even harder to land the ball to the next level properly.
+* When player jumps from one board to another, most of the times it land on the top glass part which is literally outside of the game.
+
 ## The Final Game
+For the final game, two main issues that I had to fix was 1) players lose easily because of the game layout , and 2) everything related to jumping in POV mode. I have found out that the problem with jumping was related to the baumciness of the board, whish made the ball baunce back and forth the whole time, so it was hard press jump button exactly at the point that the ball is grounded. I tried to fix it in many different ways, however I could not get what I desired; so I decided to get rid of the jump completely and add a ramp instead, which works pretty awesome. To solve the landing on the top glass issue, I basically remodel the top glass and made it a way to lead the ball in to the playground.
+For the other issue, I solved it by adding two extra bumpers at the bottom of the board on both sides of the hole, which I think made the game even more interesting.
+At the end, for the final touch, I added a HIGH SCORE system along some sound effect to make the game almost compelete.
+
+Thank you for playing my DOPE pinball
+
+ENJOY
+
+EBBY
