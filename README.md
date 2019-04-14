@@ -22,9 +22,9 @@ With all these changes, here are some points from playtesters' feedbacks:
 * The duration of the POV mode is static, and the player can not extend it somehow.
 * Jumping is awesome, however, jumping over the bumpers is not a good idea.
 * There is no jumping sign to say jump over this wall to go to the next level or so.
-* 
+* It would be better to know the duration of POV mode before entering into it.
 
 ## Playtest #3 - beta test
-
+For the last playtest, which I have arranged myself, I remodel the whole board in blender and made it larger and more amusing. I got rid of mouse as a controller and replaced it with arrows, so player will have a comfortable hand position to play the game. Added various elemets to UI such as Controls, the Goal of the game, "next level unlocks at: X points", and the duration of POV mode. I have made a connection between Multiplier's value, duration of POV mode, and the thereshold in which POV mode is available; what I did was 
 
 ## The Final Game
